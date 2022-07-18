@@ -339,6 +339,7 @@ html{
  }
 
 
+
 @media (max-width:760px){
     .containeer{
         max-width: 70rem;
@@ -346,21 +347,87 @@ html{
 
     .right img{
         height: 100%;
-        width: 60%;
+        width: 95%;
        }
 
        .right .overlay{
-        width: 60%;
-        left: 0px;
-        height: 70%;
+        padding: 0% 3%;
+        font-size: 0.8rem;
+        width: 100%;
+        left: -40px;
+        height: 50%;
+        right: -8px;
+        box-sizing: content-box;
+        opacity: 0.9;
     }
     
     .sec-hero::before{
         height: 20%;
         bottom: 55px;
+        width: 50%;
+        right: 7%;
      }
      
 
+}
+
+@media (max-width: 460px){
+    .containeer{
+        max-width: 46rem;
+    }
+
+    .right img{
+        right: -50px;
+        height: 100%;
+        width: 93%;
+        left: 0%;
+       }
+
+       .right .overlay{
+        padding: 0% 3%;
+        font-size: 0.8rem;
+        width: 100%;
+        left: -30px;
+        height: 50%;
+        right: -10px;
+        box-sizing: content-box;
+        opacity: 0.9;
+    }
+    
+    .sec-hero::before{
+        height: 11%;
+        bottom: 55px;
+        width: 50%;
+        right: 12%;
+        opacity: 0.8;
+     }
+     
+
+}
+
+@media (max-width: 370px){
+    
+    
+    .right .overlay{
+        padding: 0% 3%;
+        font-size: 2px;
+        width: 100%;
+        left: -30px;
+        height: 72%;
+        right: -10px;
+        box-sizing: content-box;
+        opacity: 0.6;
+        color: var(--helper-color);
+        font-style: italic;
+    }
+    
+    .sec-hero::before{
+        height: 11%;
+        bottom: 55px;
+        width: 50%;
+        right: 12%;
+        opacity: 0.8;
+     }
 }
 
 
