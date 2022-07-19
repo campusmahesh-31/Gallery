@@ -303,6 +303,7 @@ html{
 }
 
 .active .navbar{
+     transform: translateX(0%);
     display: block;
     justify-content: center;
     align-items: center;
