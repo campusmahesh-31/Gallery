@@ -288,8 +288,10 @@ html{
   opacity: 1;
   visibility: visible;
   pointer-events: none;
+    padding-top: 150px;
 }
 .navbar .navbar-list{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
