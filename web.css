@@ -286,12 +286,9 @@ html{
     width: 55%;
     background-color: #0d0d0f;
   opacity: 1;
-  visibility: visible;
-  pointer-events: none;
    
 }
 .navbar .navbar-list{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
