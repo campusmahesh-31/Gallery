@@ -303,19 +303,8 @@ html{
 }
 
 .active .navbar{
-     transform: translateX(0%);
     display: block;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #0d0d0f;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: none;
+    opacity: 1;
 }
 
 .active #mobile-nav-icon[name="close"]{
