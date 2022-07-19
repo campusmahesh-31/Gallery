@@ -282,13 +282,13 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 147.5vh;
     width: 55%;
     background-color: #0d0d0f;
   opacity: 1;
   visibility: visible;
   pointer-events: none;
-    padding-top: 150px;
+   
 }
 .navbar .navbar-list{
     
@@ -305,6 +305,7 @@ html{
 }
 
 .active .navbar{
+     padding-top: 150px;
     display: block;
     opacity: 1;
 }
